@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zero To Hero</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
- 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>VIP TRADERS (जय महाराष्ट्र)</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -17,581 +21,279 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1580587547146060');
+fbq('init', '1992019901462314');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1580587547146060&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=1992019901462314&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
- 
- <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      -webkit-tap-highlight-color: transparent;
-    }
-
-    body {
-      background: #f4f7fb;
-      color: #1e293b;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      min-height: 100vh;
-      padding: 12px;
-    }
-
-    /* Mobile Container */
-    .mobile-card {
-      width: 100%;
-      max-width: 420px;
-      background: #ffffff;
-      border-radius: 24px;
-      padding: 24px 18px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      position: relative;
-    }
-
-    /* Live Online Badge */
-    .online-badge {
-      background-color: #e6f9ed;
-      color: #16a34a;
-      font-size: 13px;
-      font-weight: 600;
-      padding: 6px 14px;
-      border-radius: 20px;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      margin-bottom: 20px;
-    }
-
-    .pulse-dot {
-      width: 8px;
-      height: 8px;
-      background-color: #22c55e;
-      border-radius: 50%;
-      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
-      animation: pulse 1.6s infinite;
-    }
-
-    @keyframes pulse {
-      0% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
-      }
-      70% {
-        transform: scale(1);
-        box-shadow: 0 0 0 8px rgba(34, 197, 94, 0);
-      }
-      100% {
-        transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
-      }
-    }
-
-    /* Profile / Logo Avatar */
-    .avatar-wrapper {
-      width: 110px;
-      height: 110px;
-      border-radius: 50%;
-      padding: 3px;
-      background: linear-gradient(135deg, #2563eb, #3b82f6);
-      margin-bottom: 16px;
-      box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
-    }
-
-    .avatar-img {
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      object-fit: cover;
-      background: #e2e8f0;
-      border: 3px solid #fff;
-    }
-
-    /* Main Headings */
-    .main-title {
-      font-size: 20px;
-      font-weight: 800;
-      color: #0f172a;
-      line-height: 1.35;
-      letter-spacing: -0.2px;
-      margin-bottom: 8px;
-    }
-
-    .sub-title {
-      font-size: 13px;
-      color: #2563eb;
-      font-weight: 700;
-      margin-bottom: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-    }
-
-    /* Rating Section */
-    .stars {
-      color: #f59e0b;
-      font-size: 16px;
-      letter-spacing: 2px;
-      margin-bottom: 4px;
-    }
-
-    .rating-text {
-      font-size: 12px;
-      color: #64748b;
-      font-weight: 500;
-      margin-bottom: 20px;
-    }
-
-    /* Action Button */
-    .cta-btn {
-      width: 100%;
-      background: linear-gradient(180deg, #1d4ed8 0%, #2563eb 50%, #1e40af 100%);
-      color: #ffffff;
-      font-size: 16px;
-      font-weight: 700;
-      padding: 16px 20px;
-      border-radius: 14px;
-      border: none;
-      cursor: pointer;
-      box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
-      transition: all 0.2s ease;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      text-decoration: none;
-      margin-bottom: 20px;
-    }
-
-    .cta-btn:active {
-      transform: scale(0.98);
-      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
-    }
-
-    /* Stats Grid */
-    .stats-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      width: 100%;
-      margin-bottom: 24px;
-    }
-
-    .stat-card {
-      background: #f8fafc;
-      border: 1px solid #edf2f7;
-      border-radius: 14px;
-      padding: 12px 6px;
-    }
-
-    .stat-val {
-      font-size: 18px;
-      font-weight: 800;
-      color: #2563eb;
-      line-height: 1.2;
-    }
-
-    .stat-lbl {
-      font-size: 11px;
-      color: #64748b;
-      font-weight: 600;
-      margin-top: 4px;
-    }
-
-    /* Callout Titles */
-    .section-headline {
-      font-size: 16px;
-      font-weight: 800;
-      color: #0f172a;
-      margin-bottom: 4px;
-    }
-
-    .section-headline span {
-      color: #2563eb;
-    }
-
-    .section-sub {
-      font-size: 13px;
-      font-weight: 700;
-      color: #1e293b;
-      margin-bottom: 4px;
-    }
-
-    .section-desc {
-      font-size: 12px;
-      color: #64748b;
-      margin-bottom: 16px;
-    }
-
-    /* Alert / Promo Strip */
-    .promo-banner {
-      width: 100%;
-      background: #fff7ed;
-      border: 1px dashed #fdba74;
-      color: #ea580c;
-      font-size: 13px;
-      font-weight: 700;
-      padding: 10px;
-      border-radius: 12px;
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-    }
-
-    /* Features List */
-    .feature-list {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      margin-bottom: 20px;
-    }
-
-    .feature-item {
-      background: #f8fafc;
-      border: 1px solid #f1f5f9;
-      padding: 14px 16px;
-      border-radius: 14px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      text-align: left;
-      font-size: 13px;
-      font-weight: 600;
-      color: #334155;
-    }
-
-    .feature-icon {
-      width: 32px;
-      height: 32px;
-      border-radius: 8px;
-      background: #eff6ff;
-      color: #2563eb;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 16px;
-      flex-shrink: 0;
-    }
-
-    /* Disclaimer & Links */
-    .disclaimer-text {
-      font-size: 10.5px;
-      color: #94a3b8;
-      line-height: 1.5;
-      margin-bottom: 16px;
-    }
-
-    .footer-links {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 12px 18px;
-      border-top: 1px solid #f1f5f9;
-      padding-top: 16px;
-      width: 100%;
-    }
-
-    .footer-link {
-      font-size: 12px;
-      color: #2563eb;
-      font-weight: 600;
-      text-decoration: none;
-      cursor: pointer;
-      background: none;
-      border: none;
-    }
-
-    .footer-link:hover {
-      text-decoration: underline;
-    }
-
-    /* POPUP MODAL STYLES */
-    .modal-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background: rgba(15, 23, 42, 0.6);
-      backdrop-filter: blur(4px);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 1000;
-      opacity: 0;
-      visibility: hidden;
-      transition: all 0.25s ease;
-      padding: 16px;
-    }
-
-    .modal-overlay.active {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    .modal-box {
-      background: #ffffff;
-      width: 100%;
-      max-width: 400px;
-      max-height: 80vh;
-      border-radius: 20px;
-      padding: 24px;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      transform: translateY(20px);
-      transition: transform 0.25s ease;
-    }
-
-    .modal-overlay.active .modal-box {
-      transform: translateY(0);
-    }
-
-    .modal-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #f1f5f9;
-      padding-bottom: 12px;
-      margin-bottom: 16px;
-    }
-
-    .modal-title {
-      font-size: 17px;
-      font-weight: 700;
-      color: #0f172a;
-    }
-
-    .close-btn {
-      background: #f1f5f9;
-      border: none;
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      font-size: 16px;
-      color: #64748b;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .modal-body {
-      overflow-y: auto;
-      font-size: 13px;
-      color: #475569;
-      line-height: 1.6;
-      text-align: left;
-    }
-
-    .modal-body p {
-      margin-bottom: 12px;
-    }
-
-    .contact-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 12px;
-      background: #f8fafc;
-      border-radius: 10px;
-      margin-bottom: 10px;
-    }
-
-    .contact-item i {
-      color: #2563eb;
-      font-size: 18px;
-    }
-  </style>
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .btn-glow {
+            box-shadow: 0 4px 14px rgba(10, 102, 228, 0.35);
+            transition: all 0.2s ease;
+        }
+        .btn-glow:active {
+            transform: scale(0.98);
+        }
+        @keyframes pulse-ring {
+            0% { transform: scale(0.95); opacity: 0.8; }
+            50% { transform: scale(1.2); opacity: 1; }
+            100% { transform: scale(0.95); opacity: 0.8; }
+        }
+        .pulse-dot {
+            animation: pulse-ring 1.8s infinite ease-in-out;
+        }
+    </style>
 </head>
-<body>
+<body class="min-h-screen flex flex-col justify-between text-gray-800 antialiased selection:bg-blue-100">
 
-  <div class="mobile-card">
-    <!-- Live Online Badge -->
-    <div class="online-badge">
-      <span class="pulse-dot"></span>
-      5,947 Traders Online Now
+    <!-- Compact Header -->
+    <header class="w-full bg-white border-b border-gray-100 py-2 px-3 sm:px-6 flex justify-between items-center shadow-xs sticky top-0 z-40">
+        <div class="flex items-center space-x-2">
+            <img src="Gautam.jpeg" 
+                 alt="Logo" 
+                 class="w-7 h-7 rounded-full object-cover border border-blue-500 shadow-xs"
+                 onerror="this.src='https://placehold.co/80x80/0a66e4/ffffff?text=VT';">
+            <div>
+                <span class="font-extrabold text-gray-900 text-xs sm:text-sm block leading-tight tracking-tight">VIP TRADERS (जय महाराष्ट्र)</span>
+                <span class="text-[9px] text-blue-600 font-bold uppercase leading-none block">Market Expert</span>
+            </div>
+        </div>
+        
+        <a href="https://t.me/+7q5FTEbhyw0xNTll" target="_blank" class="inline-flex items-center px-3 py-1 bg-blue-50 hover:bg-blue-100 text-blue-600 font-bold text-[11px] rounded-full transition">
+            <i class="fa-brands fa-telegram text-xs mr-1 text-blue-500"></i> Join
+        </a>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="flex-grow flex items-center justify-center px-3 py-4 sm:py-6">
+        <div class="w-full max-w-[420px] bg-transparent flex flex-col items-center text-center space-y-3.5">
+
+            <!-- Online Badge -->
+            <div class="inline-flex items-center space-x-1.5 bg-emerald-50 text-emerald-700 text-[11px] font-bold px-3 py-1 rounded-full border border-emerald-200/80 shadow-xs">
+                <span class="w-2 h-2 bg-emerald-500 rounded-full pulse-dot"></span>
+                <span>5,947 Traders Online</span>
+            </div>
+
+            <!-- Profile Image & Title -->
+            <div class="flex flex-col items-center space-y-1.5">
+                <div class="relative">
+                    <div class="w-20 h-20 rounded-full p-0.5 bg-gradient-to-tr from-blue-500 to-indigo-600 shadow-sm">
+                        <img src="Gautam.jpeg" 
+                             alt="VIP TRADERS Profile" 
+                             class="w-full h-full object-cover rounded-full border border-white"
+                             onerror="this.src='https://placehold.co/200x200/1e293b/ffffff?text=VIP';">
+                    </div>
+                </div>
+
+                <div>
+                    <h1 class="text-xl font-black text-gray-900 tracking-tight uppercase leading-tight">VIP TRADERS (जय महाराष्ट्र)</h1>
+                    <p class="text-blue-600 font-bold text-xs mt-0.5 flex items-center justify-center gap-1">
+                        <span>🏆</span> India's No.1 Stock Market Channel
+                    </p>
+                </div>
+
+                <!-- Rating -->
+                <div class="flex flex-col items-center">
+                    <div class="flex text-amber-400 space-x-0.5 text-xs">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-[10px] font-semibold text-gray-500 mt-0.5">4.9/5 (2,340 Reviews)</p>
+                </div>
+            </div>
+
+            <!-- Primary CTA Button -->
+            <a href="https://t.me/+7q5FTEbhyw0xNTll" target="_blank" class="w-full py-3 px-4 bg-[#0a66e4] hover:bg-[#0855c4] active:bg-[#0747a6] text-white font-extrabold text-sm rounded-xl btn-glow flex items-center justify-center space-x-2 transition">
+                <span>Join Free Telegram Channel</span>
+                <span class="text-base">→</span>
+            </a>
+
+            <!-- Compact Stats Grid -->
+            <div class="grid grid-cols-3 gap-2 w-full">
+                <div class="bg-white py-2 px-1 rounded-xl border border-gray-100 shadow-xs flex flex-col items-center justify-center">
+                    <span class="text-base font-black text-gray-900">50K+</span>
+                    <span class="text-[10px] font-medium text-gray-500">Members</span>
+                </div>
+                <div class="bg-white py-2 px-1 rounded-xl border border-gray-100 shadow-xs flex flex-col items-center justify-center">
+                    <span class="text-base font-black text-gray-900">5+</span>
+                    <span class="text-[10px] font-medium text-gray-500">Years</span>
+                </div>
+                <div class="bg-white py-2 px-1 rounded-xl border border-gray-100 shadow-xs flex flex-col items-center justify-center">
+                    <span class="text-base font-black text-gray-900">95%</span>
+                    <span class="text-[10px] font-medium text-gray-500">Accuracy</span>
+                </div>
+            </div>
+
+            <!-- Headline Section -->
+            <div class="space-y-0.5 pt-1">
+                <h2 class="text-base font-black text-gray-900 leading-snug">
+                    Get <span class="text-blue-600 uppercase">FREE</span> Daily Calls
+                </h2>
+                <p class="text-xs font-bold text-gray-700">
+                    for NIFTY, BANKNIFTY & SENSEX
+                </p>
+                <p class="text-[10px] text-gray-500 font-medium pt-0.5">
+                    Join thousands of traders getting daily market analysis
+                </p>
+            </div>
+
+            <!-- Limited Offer Banner -->
+            <div class="w-full bg-amber-50/90 border border-amber-200/80 rounded-xl py-2 px-3 flex items-center justify-center text-amber-800 font-bold text-xs shadow-xs">
+                <span>🔥 Limited FREE Access Available</span>
+            </div>
+
+            <!-- Feature List -->
+            <div class="w-full space-y-2">
+                <div class="w-full bg-white p-2.5 rounded-xl border border-gray-100 shadow-xs flex items-center space-x-2.5 text-left">
+                    <span class="text-base">📊</span>
+                    <span class="font-bold text-gray-800 text-xs">Daily Nifty & BankNifty Levels</span>
+                </div>
+                <div class="w-full bg-white p-2.5 rounded-xl border border-gray-100 shadow-xs flex items-center space-x-2.5 text-left">
+                    <span class="text-base">🎓</span>
+                    <span class="font-bold text-gray-800 text-xs">Educational Market Analysis</span>
+                </div>
+                <div class="w-full bg-white p-2.5 rounded-xl border border-gray-100 shadow-xs flex items-center space-x-2.5 text-left">
+                    <span class="text-base">👥</span>
+                    <span class="font-bold text-gray-800 text-xs">50,000+ Subscribers Community</span>
+                </div>
+            </div>
+
+            <!-- Secondary CTA Button -->
+            <a href="https://t.me/+7q5FTEbhyw0xNTll" target="_blank" class="w-full py-3 px-4 bg-[#0a66e4] hover:bg-[#0855c4] active:bg-[#0747a6] text-white font-extrabold text-sm rounded-xl btn-glow flex items-center justify-center space-x-2 transition">
+                <span>Join Free Telegram Channel</span>
+                <span class="text-base">→</span>
+            </a>
+
+            <!-- Brief Inline Disclaimer -->
+            <p class="text-[10px] text-gray-400 leading-tight px-2 pt-1">
+                <strong class="font-semibold text-gray-500">Disclaimer:</strong>
+                This channel is for educational purposes only. Trading involves market risk.
+            </p>
+
+        </div>
+    </main>
+
+    <!-- Compact Footer Section -->
+    <footer class="w-full bg-white border-t border-gray-200 py-3 px-3 mt-4">
+        <div class="max-w-md mx-auto flex flex-col items-center space-y-2">
+            <!-- Navigation Links -->
+            <div class="flex flex-wrap justify-center gap-2.5 text-[11px] font-bold text-gray-600">
+                <button onclick="openModal('aboutModal')" class="hover:text-blue-600 active:text-blue-700 transition">About Us</button>
+                <span class="text-gray-300">•</span>
+                <button onclick="openModal('termsModal')" class="hover:text-blue-600 active:text-blue-700 transition">Terms</button>
+                <span class="text-gray-300">•</span>
+                <button onclick="openModal('disclaimerModal')" class="hover:text-blue-600 active:text-blue-700 transition">Disclaimer</button>
+                <span class="text-gray-300">•</span>
+                <button onclick="openModal('contactModal')" class="hover:text-blue-600 active:text-blue-700 transition">Contact Us</button>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-[10px] text-gray-400 text-center">
+                &copy; <span id="year"></span> VIP TRADERS (जय महाराष्ट्र). All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODALS FOR FOOTER LINKS -->
+    
+    <!-- About Us Modal -->
+    <div id="aboutModal" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 hidden flex items-center justify-center p-3">
+        <div class="bg-white w-full max-w-sm rounded-2xl p-5 shadow-2xl relative max-h-[80vh] overflow-y-auto">
+            <button onclick="closeModal('aboutModal')" class="absolute top-3 right-3 text-gray-400 hover:text-gray-600 text-lg font-bold w-7 h-7 flex items-center justify-center rounded-full bg-gray-100">&times;</button>
+            <h3 class="text-base font-extrabold text-gray-900 mb-2 border-b border-gray-100 pb-2">About Us</h3>
+            <div class="text-xs text-gray-600 space-y-2 leading-relaxed">
+                <p>Welcome to VIP TRADERS (जय महाराष्ट्र) Stock Market Channel, one of India's premier online trading communities.</p>
+                <p>With 5+ years of stock market experience, we share technical research, intraday levels for NIFTY, BANKNIFTY & SENSEX, and market guidance.</p>
+            </div>
+            <button onclick="closeModal('aboutModal')" class="mt-4 w-full py-2 bg-blue-600 text-white font-bold rounded-xl text-xs hover:bg-blue-700">Got it</button>
+        </div>
     </div>
 
-    <!-- LOGO / PROFILE IMAGE (Aap yahan apna Logo URL Daalein) -->
-    <div class="avatar-wrapper">
-      <img src="ZtoH.jpeg" alt="Zero To Hero Logo" class="avatar-img">
+    <!-- Terms Modal -->
+    <div id="termsModal" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 hidden flex items-center justify-center p-3">
+        <div class="bg-white w-full max-w-sm rounded-2xl p-5 shadow-2xl relative max-h-[80vh] overflow-y-auto">
+            <button onclick="closeModal('termsModal')" class="absolute top-3 right-3 text-gray-400 hover:text-gray-600 text-lg font-bold w-7 h-7 flex items-center justify-center rounded-full bg-gray-100">&times;</button>
+            <h3 class="text-base font-extrabold text-gray-900 mb-2 border-b border-gray-100 pb-2">Terms & Conditions</h3>
+            <div class="text-xs text-gray-600 space-y-2 leading-relaxed">
+                <p><strong>1. Educational Content:</strong> All trade setups and commentary provided are strictly for educational purposes.</p>
+                <p><strong>2. No Guarantee:</strong> Past performance does not guarantee future results. Trading involves financial risks.</p>
+                <p><strong>3. Responsibility:</strong> Users are solely responsible for their investment decisions and capital.</p>
+            </div>
+            <button onclick="closeModal('termsModal')" class="mt-4 w-full py-2 bg-blue-600 text-white font-bold rounded-xl text-xs hover:bg-blue-700">Accept</button>
+        </div>
     </div>
 
-    <!-- Title & Subtitle -->
-    <h1 class="main-title">Zero To Hero<br><span style="font-size:15px; font-weight:700;"></span></h1>
-    <div class="sub-title">
-      🏆 India's No.1 Stock Market Channel
+    <!-- Disclaimer Modal -->
+    <div id="disclaimerModal" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 hidden flex items-center justify-center p-3">
+        <div class="bg-white w-full max-w-sm rounded-2xl p-5 shadow-2xl relative max-h-[80vh] overflow-y-auto">
+            <button onclick="closeModal('disclaimerModal')" class="absolute top-3 right-3 text-gray-400 hover:text-gray-600 text-lg font-bold w-7 h-7 flex items-center justify-center rounded-full bg-gray-100">&times;</button>
+            <h3 class="text-base font-extrabold text-gray-900 mb-2 border-b border-gray-100 pb-2">Disclaimer</h3>
+            <div class="text-xs text-gray-600 space-y-2 leading-relaxed">
+                <p><strong>Educational Purpose Only:</strong> We are not SEBI registered advisors. Trading in Options and Equities carries significant financial risk.</p>
+                <p>Please consult a certified financial advisor before placing real financial trades.</p>
+            </div>
+            <button onclick="closeModal('disclaimerModal')" class="mt-4 w-full py-2 bg-blue-600 text-white font-bold rounded-xl text-xs hover:bg-blue-700">I Understand</button>
+        </div>
     </div>
 
-    <!-- Ratings -->
-    <div class="stars">★★★★★</div>
-    <div class="rating-text">4.9/5 (2340 Reviews)</div>
-
-    <!-- Telegram CTA Button 1 -->
-    <a href="https://t.me/+tHJrQ6blWjtlYTA1" target="_blank" class="cta-btn">
-      Join Free Telegram Channel &rarr;
-    </a>
-
-    <!-- Stats Grid -->
-    <div class="stats-container">
-      <div class="stat-card">
-        <div class="stat-val">50K+</div>
-        <div class="stat-lbl">Members</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-val">5+</div>
-        <div class="stat-lbl">Years</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-val">95%</div>
-        <div class="stat-lbl">Accuracy</div>
-      </div>
+    <!-- Contact Us Modal -->
+    <div id="contactModal" class="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 hidden flex items-center justify-center p-3">
+        <div class="bg-white w-full max-w-sm rounded-2xl p-5 shadow-2xl relative max-h-[80vh] overflow-y-auto">
+            <button onclick="closeModal('contactModal')" class="absolute top-3 right-3 text-gray-400 hover:text-gray-600 text-lg font-bold w-7 h-7 flex items-center justify-center rounded-full bg-gray-100">&times;</button>
+            <h3 class="text-base font-extrabold text-gray-900 mb-2 border-b border-gray-100 pb-2">Contact Us</h3>
+            <div class="text-xs text-gray-600 space-y-2.5 leading-relaxed">
+                <p>Have questions? Reach out to our support team:</p>
+                <div class="bg-gray-50 p-2.5 rounded-xl border border-gray-200 space-y-1.5">
+                    <p class="flex items-center gap-2">
+                        <i class="fa-solid fa-envelope text-blue-600"></i>
+                        <span><strong>Email:</strong> support@viptraders.com</span>
+                    </p>
+                    <p class="flex items-center gap-2">
+                        <i class="fa-brands fa-telegram text-blue-500"></i>
+                        <span><strong>Telegram:</strong> <a href="https://t.me/+7q5FTEbhyw0xNTll" target="_blank" class="text-blue-600 underline font-bold">Official Support</a></span>
+                    </p>
+                </div>
+            </div>
+            <button onclick="closeModal('contactModal')" class="mt-4 w-full py-2 bg-blue-600 text-white font-bold rounded-xl text-xs hover:bg-blue-700">Close</button>
+        </div>
     </div>
 
-    <!-- Mid Section Titles -->
-    <div class="section-headline">Get <span>FREE</span> Daily Calls</div>
-    <div class="section-sub">for NIFTY, BANKNIFTY & SENSEX</div>
-    <div class="section-desc">Join thousands of traders getting daily market analysis</div>
+    <script>
+        // Set dynamic year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
 
-    <!-- Limited Access Banner -->
-    <div class="promo-banner">
-      🔥 Limited FREE Access Available
-    </div>
+        // Modal Handler Functions
+        function openModal(id) {
+            document.getElementById(id).classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
 
-    <!-- Features List -->
-    <div class="feature-list">
-      <div class="feature-item">
-        <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
-        <span>Daily Nifty & BankNifty Levels</span>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-        <span>Educational Market Analysis</span>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
-        <span>50,000+ Subscribers Community</span>
-      </div>
-    </div>
+        function closeModal(id) {
+            document.getElementById(id).classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
 
-    <!-- Telegram CTA Button 2 -->
-    <a href="https://t.me/+tHJrQ6blWjtlYTA1" target="_blank" class="cta-btn">
-      Join Free Telegram Channel &rarr;
-    </a>
-
-    <!-- Disclaimer Text -->
-    <div class="disclaimer-text">
-      <strong>Disclaimer:</strong> This channel is for educational purposes only. Trading involves market risk. Please consult your financial advisor before making investment decisions.
-    </div>
-
-    <!-- Popup Triggers Footer Links -->
-    <div class="footer-links">
-      <button class="footer-link" onclick="openModal('terms')">Terms & Conditions</button>
-      <button class="footer-link" onclick="openModal('about')">About Us</button>
-      <button class="footer-link" onclick="openModal('disclaimer')">Disclaimer</button>
-      <button class="footer-link" onclick="openModal('contact')">Contact Us</button>
-    </div>
-  </div>
-
-  <!-- POPUP MODAL CONTAINER -->
-  <div class="modal-overlay" id="modalOverlay" onclick="closeModalOnOverlay(event)">
-    <div class="modal-box">
-      <div class="modal-header">
-        <div class="modal-title" id="modalTitle">Modal Title</div>
-        <button class="close-btn" onclick="closeModal()">&times;</button>
-      </div>
-      <div class="modal-body" id="modalBody">
-        <!-- Content will load dynamically -->
-      </div>
-    </div>
-  </div>
-
-  <script>
-    // Content for Popups
-    const modalData = {
-      terms: {
-        title: "Terms & Conditions",
-        content: `
-          <p>Welcome to <strong>Zero To Hero ( HALAL WORK )</strong>.</p>
-          <p>1. <strong>Educational Content:</strong> All content, research, and analysis shared on this platform/channel are strictly for educational and informational purposes.</p>
-          <p>2. <strong>No Financial Advice:</strong> We do not provide guaranteed returns, portfolio management, or personal financial advice.</p>
-          <p>3. <strong>User Responsibility:</strong> Any trades or investments made based on our analysis are purely at your own risk and responsibility.</p>
-        `
-      },
-      about: {
-        title: "About Us",
-        content: `
-          <p><strong>Zero To Hero</strong> is one of India's trusted market analysis and educational communities focused on Ethical & Halal trading principles in Stock Markets.</p>
-          <p>With over <strong>5+ years of experience</strong> and <strong>50,000+ active members</strong>, our goal is to help traders understand price action, Nifty/BankNifty levels, and market psychology.</p>
-        `
-      },
-      disclaimer: {
-        title: "Disclaimer",
-        content: `
-          <p><strong>Risk Warning:</strong> Trading in Stock, Futures, Options, and Commodities involves substantial risk of loss and is not suitable for every investor.</p>
-          <p>Valuations can fluctuate, and investors may lose more than their original investment.</p>
-          <p>We are not SEBI registered financial advisors (unless specified). Please consult a certified financial advisor before taking any financial steps.</p>
-        `
-      },
-      contact: {
-        title: "Contact Us",
-        content: `
-          <p>If you have any questions or queries, feel free to reach out to us:</p>
-          <div class="contact-item">
-            <i class="fa-brands fa-telegram"></i>
-            <div><strong>Telegram Join Link:</strong><br><a href="https://t.me/+tHJrQ6blWjtlYTA1" target="_blank" style="color:#2563eb;">Click Here to Join</a></div>
-          </div>
-          <div class="contact-item">
-            <i class="fa-solid fa-envelope"></i>
-            <div><strong>Email Support:</strong><br>contact@zerotohero.com</div>
-          </div>
-          <div class="contact-item">
-            <i class="fa-solid fa-clock"></i>
-            <div><strong>Support Hours:</strong><br>Mon - Sat (9:00 AM - 6:00 PM)</div>
-          </div>
-        `
-      }
-    };
-
-    function openModal(type) {
-      const data = modalData[type];
-      if (!data) return;
-      
-      document.getElementById('modalTitle').innerText = data.title;
-      document.getElementById('modalBody').innerHTML = data.content;
-      
-      const modal = document.getElementById('modalOverlay');
-      modal.classList.add('active');
-      document.body.style.overflow = 'hidden';
-    }
-
-    function closeModal() {
-      const modal = document.getElementById('modalOverlay');
-      modal.classList.remove('active');
-      document.body.style.overflow = 'auto';
-    }
-
-    function closeModalOnOverlay(e) {
-      if (e.target.id === 'modalOverlay') {
-        closeModal();
-      }
-    }
-  </script>
+        // Close modal when clicking backdrop
+        window.onclick = function(event) {
+            const modals = ['aboutModal', 'termsModal', 'disclaimerModal', 'contactModal'];
+            modals.forEach(modalId => {
+                const modal = document.getElementById(modalId);
+                if (event.target === modal) {
+                    closeModal(modalId);
+                }
+            });
+        };
+    </script>
 </body>
 </html>
